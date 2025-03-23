@@ -21,12 +21,24 @@ void philosopher(int number){
         this_thread::sleep_for(chrono::seconds(3)); //Thinking
         unique_lock<mutex> lock(mtx); // Blocking common resources
         cv.wait(lock, [] {return forks[leftFork] && forks[rightFork];});
+
+        // Critical part 1
+        forks[leftFork] = false;
+        forks[rightFork] = false;
+        lock.unlock();
+
+        cout<<"Philosopher with number "<<number<<" is eating right now"<<endl;
+        this_thread::sleep_for(chrono::seconds(3)); //Eating
+
+        // Critical part 2
+        lock.lock();
+        forks[leftFork] = true;
+        forks[rightFork] = true;
+        lock.unlock();
+
+        cv.notify_all();
     }
-
-
 }
-
-
 
 int main() {
     cout<<"Welcome to a program where you can solve a philosopher's problem!"<<endl;
@@ -43,12 +55,5 @@ int main() {
     for (thread& x : philosophers) {
         x.join();
     }
-
-
-
-
-
-
-
     return 0;
 }
