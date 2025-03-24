@@ -1264,6 +1264,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/Konrad/Desktop/SO Projects"
+		},
+		{
+			"name" : "Zadanie_3_PEA_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Konrad/Desktop/SO Projects/cmake-build-debug"
+		},
+		{
+			"name" : "Zadanie_3_PEA_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Zadanie_3_PEA_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Konrad/Desktop/SO Projects"
 		}
 	],
 	"kind" : "cache",

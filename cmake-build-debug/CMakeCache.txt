@@ -242,6 +242,15 @@ SO_Projects_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 SO_Projects_SOURCE_DIR:STATIC=C:/Users/Konrad/Desktop/SO Projects
 
+//Value Computed by CMake
+Zadanie_3_PEA_BINARY_DIR:STATIC=C:/Users/Konrad/Desktop/SO Projects/cmake-build-debug
+
+//Value Computed by CMake
+Zadanie_3_PEA_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Zadanie_3_PEA_SOURCE_DIR:STATIC=C:/Users/Konrad/Desktop/SO Projects
+
 
 ########################
 # INTERNAL cache entries
