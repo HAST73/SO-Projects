@@ -72,7 +72,7 @@ Philosopher 2 has finished eating and released forks.
 
 Program działa w sposób ciągły, symulując filozofów, którzy myślą i jedzą, zgodnie z zasadami synchronizacji.
 
-### **5. Możliwe usprawnienia**
+### **6. Możliwe usprawnienia**
 
 - Ograniczenie czasu oczekiwania na widelec (timeout), aby zapobiec potencjalnemu zagłodzeniu filozofów.
 - Losowe czasy myślenia i jedzenia dla bardziej realistycznej symulacji.
